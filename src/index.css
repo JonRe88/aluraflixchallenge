@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .root { 
+    background-color: gray;
+}
+.
+.swiper-slide {
+  width: auto !important;
+}
+
+/* Frontend section scrollbar */
+.frontend-section ::-webkit-scrollbar {
+  height: 12px;
+  z-index: 100;
+}
+
+.frontend-section ::-webkit-scrollbar-track {
+  background: #2a4ddc;
+  border-radius: 10px;
+}
+
+.frontend-section ::-webkit-scrollbar-thumb {
+  background: #2a4ddc;
+  border-radius: 10px;
+}
+
+.frontend-section ::-webkit-scrollbar-thumb:hover {
+  background: #2a4ddc;
+}
+
+/* Backend section scrollbar */
+.backend-section ::-webkit-scrollbar {
+  height: 8px;
+}
+
+.backend-section ::-webkit-scrollbar-track {
+  background: #00b162;
+  border-radius: 4px;
+}
+
+.backend-section ::-webkit-scrollbar-thumb {
+  background: #00b162;
+  border-radius: 4px;
+}
+
+.backend-section ::-webkit-scrollbar-thumb:hover {
+  background: #00b162;
+}
+
+/* Innovation section scrollbar */
+.innovation-section ::-webkit-scrollbar {
+  height: 8px;
+}
+
+.innovation-section ::-webkit-scrollbar-track {
+  background: #e6a700;
+  border-radius: 4px;
+}
+
+.innovation-section ::-webkit-scrollbar-thumb {
+  background: #e6a700;
+  border-radius: 4px;
+}
+
+.innovation-section ::-webkit-scrollbar-thumb:hover {
+  background: #e6a700;
+}
