@@ -1,4 +1,5 @@
 import React from 'react';
+import bannerBackground from '../assets/banner.svg';
 
 export default function Banner() {
   return (
