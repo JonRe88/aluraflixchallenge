@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Banner() {
   return (
-    <div className="relative h-[600px] bg-gray-900">
+    <div className="relative h-[600px] bg-cover bg-center"
+    style={{ backgroundImage: `url(${bannerBackground})` }}>
       <div className="absolute inset-4 grid grid-cols-2">
         {/* Left side - Content */}
         <div className="ml-6 relative z-10 flex flex-col justify-center p-10">
